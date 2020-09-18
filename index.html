@@ -7,9 +7,7 @@
     <style>
       html, body {
           margin: 0;
-      }
-      canvas {
-        width: 100%;
+          overflow: hidden;
       }
     </style>
     <!-- Live2DCubismCore script -->
@@ -19,4 +17,11 @@
   </head>
   <body>
   </body>
+  <script>
+    window.onresize = () => {
+      canvas = document.querySelector("canvas");
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+  </script>
 </html>
