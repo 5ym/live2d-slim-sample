@@ -8,4 +8,8 @@ cd live2d-slim-sample
 npm i
 # build
 npm run build
+# distフォルダのindex.htmlをホストすれば確認できます。
 ```
+
+動作サンプル  
+https://5ym.github.io/live2d-slim-sample/
