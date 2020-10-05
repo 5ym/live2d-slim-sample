@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          recursive: true
+          submodules: 'recursive'
       - name: install build
         run: |
           npm i
